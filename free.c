@@ -24,7 +24,7 @@ void formatBytes(unsigned long long bytes, char *buffer, int bufferSize, int hum
         return;
     }
     
-    const char *suffixes[] = {"B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"};
+    const char *suffixes[] = {"B", "Ki", "Mi", "Gi", "Ti", "Pi", "Ei", "Zi", "Yi"};
     int suffixIndex = 0;
     double result = 0.0;
 
